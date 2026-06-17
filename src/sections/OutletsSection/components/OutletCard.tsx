@@ -59,18 +59,26 @@ export const OutletCard = (props: OutletCardProps) => {
             </p>
           </div>
 
-          <a
-            href={props.mapUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className={`mt-6 w-full py-3.5 px-6 rounded-full text-center text-[15px] font-bold uppercase tracking-widest transition-all duration-300 ${
-              hovered 
-                ? "bg-yellow-400 text-green-900 shadow-[0_8px_20px_rgba(251,255,0,0.3)]" 
-                : "bg-white/10 text-white hover:bg-white/20"
-            }`}
-          >
-            View Map
-          </a>
+          {props.mapUrl && props.mapUrl !== "#" ? (
+            <a
+              href={props.mapUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`mt-6 w-full py-3.5 px-6 rounded-full text-center text-[15px] font-bold uppercase tracking-widest transition-all duration-300 ${
+                hovered 
+                  ? "bg-yellow-400 text-green-900 shadow-[0_8px_20px_rgba(251,255,0,0.3)]" 
+                  : "bg-white/10 text-white hover:bg-white/20"
+              }`}
+            >
+              View Map
+            </a>
+          ) : (
+            <div
+              className="mt-6 w-full py-3.5 px-6 rounded-full text-center text-[15px] font-bold uppercase tracking-widest transition-all duration-300 bg-white/5 text-white/40 cursor-not-allowed select-none border border-white/5"
+            >
+              Location Pending
+            </div>
+          )}
         </div>
       </div>
     </div>

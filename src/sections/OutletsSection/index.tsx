@@ -4,34 +4,124 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const outlets = [
   {
-    ariaLabel: "1 / 3",
+    ariaLabel: "1 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
     imageAlt: "Avilpro Chavakkad",
     name: "Avilpro Chavakkad",
-    address: "Opp Chavakkad Town Juma Masjid, Chavakkad PO, Thrissur, Kerala",
+    address: "Beach road, Chavakkad, Thrissur, Kerala",
     phone: "+91 9497711171",
-    mapUrl: "https://maps.google.com/?q=Chavakkad+Thrissur+Kerala",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Chavakkad+Beach+road",
   },
   {
-    ariaLabel: "2 / 3",
+    ariaLabel: "2 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
-    imageAlt: "Avilpro Guruvayoor",
-    name: "Avilpro Guruvayoor",
-    address: "Guruvayoor, Thrissur, Kerala",
+    imageAlt: "Avilpro Pavaratty",
+    name: "Avilpro Pavaratty",
+    address: "Near VKG Cinemas, Pavaratty, Thrissur, Kerala",
     phone: "+91 9497711171",
-    mapUrl: "https://maps.google.com/?q=Guruvayoor+Thrissur+Kerala",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Pavaratty+near+Vkg+cinemas",
   },
   {
-    ariaLabel: "3 / 3",
+    ariaLabel: "3 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
-    imageAlt: "Avilpro Attupurram",
-    name: "Avilpro Attupurram",
-    address: "Attupurram, Thrissur, Kerala",
+    imageAlt: "Avilpro Thaikkad",
+    name: "Avilpro Thaikkad",
+    address: "Palli Road, Thaikkad, Thrissur, Kerala",
     phone: "+91 9497711171",
-    mapUrl: "https://maps.google.com/?q=Attupurram+Thrissur+Kerala",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Thaikkad+Palli+road",
+  },
+  {
+    ariaLabel: "4 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
+    imageAlt: "Avilpro Guruvayoor",
+    name: "Avilpro Guruvayoor",
+    address: "Opp. Private Bus Stand, Guruvayoor, Thrissur, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "#",
+  },
+  {
+    ariaLabel: "5 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageAlt: "Avilpro Kunnamkulam",
+    name: "Avilpro Kunnamkulam",
+    address: "New Private Bus Stand, Kunnamkulam, Thrissur, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Kunnamkulam+new+private+bus+stand",
+  },
+  {
+    ariaLabel: "6 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
+    imageAlt: "Avilpro Thammanam",
+    name: "Avilpro Thammanam",
+    address: "Mahakavi Vailopilly Road, Thammanam, Kochi, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "#",
+  },
+  {
+    ariaLabel: "7 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
+    imageAlt: "Avilpro Eramangalam",
+    name: "Avilpro Eramangalam",
+    address: "Kalathil Padi, Eramangalam, Malappuram, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+eramangalam+Kalathil+padi",
+  },
+  {
+    ariaLabel: "8 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageAlt: "Avilpro Vadanapally",
+    name: "Avilpro Vadanapally",
+    address: "Near Nandi Lath G Mart, Vadanapally, Thrissur, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://maps.app.goo.gl/8X2gADr97qhBSLUAA",
+  },
+  {
+    ariaLabel: "9 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
+    imageAlt: "Avilpro Mattoor",
+    name: "Avilpro Mattoor",
+    address: "Near Kalady Sanskrit University, Mattoor, Kalady, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://maps.app.goo.gl/tS4r3z29GoP69RHc7",
+  },
+  {
+    ariaLabel: "10 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
+    imageAlt: "Avilpro Thrissur",
+    name: "Avilpro Thrissur",
+    address: "Opp. Malabar Gold, MG Road, Thrissur, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Thrissur+mg+road+opp+Malabar+gold",
+  },
+  {
+    ariaLabel: "11 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageAlt: "Avilpro Vadakkekad (Attupuram)",
+    name: "Avilpro Vadakkekad (Attupuram)",
+    address: "Attupuram, Vadakkekad, Thrissur, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "#",
+  },
+  {
+    ariaLabel: "12 / 12",
+    imageSrc:
+      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
+    imageAlt: "Avilpro Kazhakkoottam",
+    name: "Avilpro Kazhakkoottam",
+    address: "Kazhakkoottam, Trivandrum, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://maps.app.goo.gl/GjgdRFm2em7AtBUK6",
   },
 ];
 
