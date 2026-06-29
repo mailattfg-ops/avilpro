@@ -48,6 +48,7 @@ export default {
             },
             fontFamily: {
                 sans: [
+                    "'Plus Jakarta Sans'",
                     "ui-sans-serif",
                     "system-ui",
                     "sans-serif",
@@ -61,7 +62,9 @@ export default {
                 "font_awesome_5_brands": ["Font Awesome 5 Brands", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
                 "font_awesome_5_free": ["Font Awesome 5 Free", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
                 "fontawesome": ["FontAwesome", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
-                "inter": ["Inter", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+                "inter": ["Inter", "ui-sans-serif", "system-ui", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"],
+                "outfit": ["Outfit", "ui-sans-serif", "system-ui", "sans-serif"],
+                "jakarta": ["'Plus Jakarta Sans'", "ui-sans-serif", "system-ui", "sans-serif"]
             },
             keyframes: {
                 "accordion-down": {

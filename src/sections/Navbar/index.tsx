@@ -17,6 +17,7 @@ export const Navbar = () => {
     const sections = [
       "home",
       "about",
+      "legacy",
       "items",
       "outlets",
       "gallery",
@@ -42,7 +43,8 @@ export const Navbar = () => {
   const navLinks = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About" },
-    { href: "#items", label: "Items" },
+    { href: "#legacy", label: "Legacy" },
+    { href: "#items", label: "Menu" },
     { href: "#outlets", label: "Outlets" },
     { href: "#gallery", label: "Gallery" },
   ];
@@ -114,7 +116,7 @@ export const Navbar = () => {
               <a
                 href="#contact"
                 onClick={(e) => handleLinkClick(e, "#contact")}
-                className="relative -translate-y-[5px] overflow-hidden rounded-[30px] bg-green-700 px-[25px] pb-1 pt-[11px] text-center text-base font-medium capitalize leading-6 text-white transition-all duration-200 hover:bg-yellow-400 hover:text-black"
+                className="relative overflow-hidden rounded-[30px] bg-green-700 px-[25px] py-3 text-center text-base font-medium capitalize leading-none text-white transition-all duration-200 hover:bg-yellow-400 hover:text-black flex items-center justify-center h-11"
               >
                 Contact Us
               </a>

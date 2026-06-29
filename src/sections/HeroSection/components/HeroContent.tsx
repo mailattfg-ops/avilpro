@@ -29,15 +29,15 @@ export const HeroContent = () => {
         style={{ transitionDelay: "80ms" }}
       >
         {/* "Welcome To" — static */}
-        <span className="block text-[32px] font-bold leading-[1.05] text-green-700 md:text-[56px]">
+        <span className="block text-[38px] font-black leading-[1.0] text-green-700 md:text-[80px] lg:text-[88px] tracking-tight">
           Welcome To
         </span>
         {/* "The Perfect" — static */}
-        <span className="block text-[38px] font-bold leading-[1.0] text-green-700 md:text-[92px]">
+        <span className="block text-[38px] font-black leading-[1.0] text-green-700 md:text-[80px] lg:text-[88px] tracking-tight">
           The Perfect
         </span>
         {/* "BLEND!" — each letter waves, same green color */}
-        <span className="block text-[38px] font-bold leading-[1.0] text-green-700 md:text-[92px]" aria-label="Blend!">
+        <span className="block text-[38px] font-black leading-[1.0] text-green-700 md:text-[80px] lg:text-[88px] tracking-tight" aria-label="Blend!">
           {"BLEND!".split("").map((char, i) => (
             <span
               key={i}

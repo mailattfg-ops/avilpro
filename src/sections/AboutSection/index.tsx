@@ -17,11 +17,11 @@ export const AboutSection = () => {
             <img
               src="https://www.avilpro.in/wp-content/uploads/2024/12/avil.jpg"
               alt="Avil cups"
-              className="relative z-10 mt-3 h-[360px] w-full max-w-[470px] object-cover shadow-sm md:mt-4 md:h-[440px] rounded-2xl"
+              className="relative z-10 mt-3 h-[360px] w-full max-w-[470px] object-cover shadow-sm md:mt-4 md:h-[440px] rounded-3xl"
             />
           </div>
 
-          <div className="flex flex-col justify-between h-full">
+          <div className="flex flex-col justify-center h-full">
             <p className="mb-[7.04px] max-w-full text-[16.192px] font-medium capitalize leading-[27.456px] tracking-[0.2816px] text-neutral-800 text-justify md:mb-2.5 md:max-w-[590px] md:pt-2 md:text-xl md:leading-[34px] md:tracking-[0.4px]">
               Welcome to Avilpro premium Avil Milk Shop, where we serve the
               creamiest, most delicious milkshakes in town! Our mission is to
@@ -30,14 +30,6 @@ export const AboutSection = () => {
               ensures every bite of our products is crispy, tender, and bursting
               with authentic taste.
             </p>
-            
-            <div className="flex justify-end mt-8 md:mt-auto drop-shadow-md">
-              <img
-                src="https://c.animaapp.com/mnoq39ijPMbAJo/assets/xGrirPximmCJUb9nTmfXUcTqjO06mgecWftX4hcA.png"
-                alt="Decorative rice"
-                className="w-[200px] opacity-95 md:w-[380px] xl:w-[450px] object-contain pointer-events-none origin-bottom-right translate-x-[25%] scale-[1.05]"
-              />
-            </div>
           </div>
         </div>
       </div>

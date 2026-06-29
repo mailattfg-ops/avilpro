@@ -15,8 +15,7 @@ const outlets = [
   },
   {
     ariaLabel: "2 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageSrc: "/pavaratty.jpg",
     imageAlt: "Avilpro Pavaratty",
     name: "Avilpro Pavaratty",
     address: "Near VKG Cinemas, Pavaratty, Thrissur, Kerala",
@@ -55,8 +54,7 @@ const outlets = [
   },
   {
     ariaLabel: "6 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
+    imageSrc: "/thammanam.jpg",
     imageAlt: "Avilpro Thammanam",
     name: "Avilpro Thammanam",
     address: "Mahakavi Vailopilly Road, Thammanam, Kochi, Kerala",
@@ -75,8 +73,7 @@ const outlets = [
   },
   {
     ariaLabel: "8 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageSrc: "/vadanapally.jpg",
     imageAlt: "Avilpro Vadanapally",
     name: "Avilpro Vadanapally",
     address: "Near Nandi Lath G Mart, Vadanapally, Thrissur, Kerala",

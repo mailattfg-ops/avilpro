@@ -4,8 +4,6 @@ import { HeroSection } from "@/sections/HeroSection";
 import { AboutSection } from "@/sections/AboutSection";
 import { StorySection } from "@/sections/StorySection";
 import { ItemsSection } from "@/sections/ItemsSection";
-import { PremiumSection } from "@/sections/PremiumSection";
-import { SupremeSection } from "@/sections/SupremeSection";
 import { OutletsSection } from "@/sections/OutletsSection";
 import { IngredientsSection } from "@/sections/IngredientsSection";
 import { GuestsSection } from "@/sections/GuestsSection";
@@ -42,14 +40,12 @@ export const Main = () => {
       <div id="about" className="scroll-mt-[110px]">
         <AboutSection />
       </div>
-      <div className="scroll-mt-[110px]">
+      <div id="legacy" className="scroll-mt-[110px]">
         <StorySection />
       </div>
       <div id="items" className="scroll-mt-[110px]">
         <ItemsSection />
       </div>
-      <PremiumSection />
-      <SupremeSection />
       <div id="outlets" className="scroll-mt-[110px]">
         <OutletsSection />
       </div>

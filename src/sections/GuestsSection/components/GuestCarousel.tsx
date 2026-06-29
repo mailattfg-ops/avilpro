@@ -78,12 +78,9 @@ export const GuestCarousel = () => {
   };
 
   const getStaggerStyles = (i: number) => {
-    const mod = i % 4;
-    // 0: Top Left, 1: Bottom Left, 2: Top Right, 3: Bottom Right
-    if (mod === 0) return { transform: "translateY(-18%)", animationDelay: "0ms" };
-    if (mod === 1) return { transform: "translateY(22%)", animationDelay: "800ms" };
-    if (mod === 2) return { transform: "translateY(-12%)", animationDelay: "400ms" };
-    if (mod === 3) return { transform: "translateY(28%)", animationDelay: "1200ms" };
+    const mod = i % 2;
+    if (mod === 0) return { transform: "translateY(-5%)", animationDelay: "0ms" };
+    if (mod === 1) return { transform: "translateY(5%)", animationDelay: "800ms" };
     return {};
   };
   
@@ -117,7 +114,7 @@ export const GuestCarousel = () => {
               }}
             >
               <div 
-                className="relative w-full aspect-square rounded-full shadow-[0_12px_36px_rgba(0,0,0,0.18)] bg-gray-100 overflow-hidden"
+                className="relative w-full aspect-[3/4] rounded-2xl md:rounded-[32px] shadow-[0_16px_40px_rgba(0,0,0,0.15)] bg-gray-100 overflow-hidden"
                 style={{
                   ...getStaggerStyles(i),
                   animationName: "float",
