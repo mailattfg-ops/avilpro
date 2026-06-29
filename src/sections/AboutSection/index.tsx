@@ -1,7 +1,7 @@
 export const AboutSection = () => {
   return (
-    <section className="relative overflow-hidden bg-[#ececec] px-4 pb-2 pt-10 md:px-0 md:pb-4 md:pt-12">
-      <div className="absolute inset-x-0 bottom-0 h-[8%] bg-yellow-400 md:h-[10%]" />
+    <section className="relative overflow-hidden bg-[#ececec] px-4 pb-16 pt-10 md:px-0 md:pb-24 md:pt-12">
+      <div className="absolute inset-x-0 bottom-0 h-6 bg-yellow-400 md:h-10" />
       <div className="relative z-10 mx-auto w-full max-w-none px-[5.28px] md:max-w-[1140px] md:px-[7.5px]">
         <div className="grid grid-cols-1 gap-x-16 gap-y-7 md:grid-cols-2 md:gap-y-3">
           <div className="max-w-[520px]">
