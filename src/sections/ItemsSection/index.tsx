@@ -111,7 +111,7 @@ export const ItemsSection = () => {
 
           {/* Since 1985 round block */}
           <div
-            className={`relative shrink-0 flex items-center justify-center h-44 w-44 md:h-52 md:w-52 transition-all duration-700 delay-200 ${
+            className={`relative shrink-0 flex items-center justify-center h-44 w-44 md:h-52 md:w-52 mx-auto md:mx-0 transition-all duration-700 delay-200 ${
               titleVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"
             }`}
           >

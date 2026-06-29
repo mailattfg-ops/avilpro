@@ -115,7 +115,7 @@ export const StorySection = () => {
         {/* Timeline Interaction Area */}
         <div className="relative z-10 flex flex-col items-center">
           {/* Horizontal Year Selector tabs */}
-          <div className="relative mb-8 flex w-full max-w-4xl justify-between overflow-x-auto pb-4 scrollbar-none border-b border-green-700/20">
+          <div className="relative mb-8 flex w-full max-w-4xl gap-6 md:gap-0 justify-start md:justify-between overflow-x-auto pb-4 scrollbar-none border-b border-green-700/20">
             <div className="absolute top-[22px] left-0 right-0 h-0.5 bg-green-700/10 z-0" />
             {timelineData.map((item, idx) => (
               <button

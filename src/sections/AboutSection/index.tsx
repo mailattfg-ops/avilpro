@@ -6,10 +6,10 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 gap-x-16 gap-y-7 md:grid-cols-2 md:gap-y-3">
           <div className="max-w-[520px]">
             <div>
-              <h6 className="mb-[7.04px] text-[22.528px] font-bold uppercase leading-[20.5005px] tracking-[-0.90112px] text-yellow-400 md:mb-[5px] md:text-[42px] xl:text-[48px] md:leading-[1.1] md:tracking-[-1.28px]">
+              <h6 className="mb-[7.04px] text-[22.528px] font-extrabold uppercase leading-[20.5005px] tracking-tight text-yellow-400 md:mb-[5px] md:text-[42px] xl:text-[48px] md:leading-[1.1]">
                 About Us
               </h6>
-              <h1 className="mb-[3.52px] text-[37.5466px] font-bold uppercase leading-[34.1674px] tracking-[-2.70336px] text-green-700 md:mb-[5px] md:text-[68px] xl:text-[80px] md:leading-[1] md:tracking-[-3.84px]">
+              <h1 className="mb-[3.52px] text-[37.5466px] font-extrabold uppercase leading-[34.1674px] tracking-tighter text-green-700 md:mb-[5px] md:text-[68px] xl:text-[80px] md:leading-[1]">
                 Since 1985
               </h1>
             </div>
