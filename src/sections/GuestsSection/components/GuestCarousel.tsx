@@ -9,6 +9,18 @@ const allImages = [
   "https://www.avilpro.in/wp-content/uploads/2026/01/Menu-6.jpeg",
   "https://www.avilpro.in/wp-content/uploads/2024/12/AVILPRO1.jpg",
   "https://www.avilpro.in/wp-content/uploads/2024/12/AVILPRO2.jpg",
+  "https://www.avilpro.in/wp-content/uploads/2024/12/AVILPRO3.jpg",
+  "https://www.avilpro.in/wp-content/uploads/2024/12/AVILPRO4.jpg",
+  "/white_forest_speciality.png",
+  "/falooda.jpg",
+  "/premium_shake.jpg",
+  "/red_velvet_shake.png",
+  "/refreshing_mojito.png",
+  "/gourmet_burger.png",
+  "/french_fries.png",
+  "/crispy_fried_chicken.png",
+  "/speciality_falooda.png",
+  "/loaded_fries.png",
 ];
 
 // Triplicate to create smooth infinite loop

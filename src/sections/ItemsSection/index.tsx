@@ -26,28 +26,42 @@ const menuProducts = [
   {
     category: "specialities",
     categoryLabel: "Speciality",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/avil.jpg",
-    title: "Avil Milk Speciality",
-    description: "Premium edition loaded with delicious fruit chunks, creamy dairy bases, and authentic street-classic tastes.",
+    imageSrc: "/speciality_falooda.png",
+    title: "Mango Dragon Special Falooda",
+    description: "Premium edition layered with rich mango pulp, dragon fruit chunks, creamy base, and a scoop of purple ice cream.",
   },
   {
     category: "specialities",
     categoryLabel: "Speciality",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/milka.jpg",
+    imageSrc: "/premium_shake.jpg",
     title: "Premium Milk Shake",
     description: "Ultra-creamy, velvety milkshakes crafted with premium ice cream bases and high-grade dairy.",
   },
   {
     category: "specialities",
     categoryLabel: "Speciality",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/mojitto.jpg",
+    imageSrc: "/red_velvet_shake.png",
+    title: "Red Velvet Speciality",
+    description: "Indulgent layered red velvet shake infused with premium crumbles, cream, and cherry toppings.",
+  },
+  {
+    category: "specialities",
+    categoryLabel: "Refreshing",
+    imageSrc: "/refreshing_mojito.png",
     title: "Refreshing Mojito",
     description: "A bubbly, cooling mojito infused with fresh mint leaves and zesty lime wedges to refresh your day.",
   },
   {
     category: "specialities",
     categoryLabel: "Speciality",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/f.jpg",
+    imageSrc: "/white_forest_speciality.png",
+    title: "White Forest Speciality",
+    description: "A luxurious dessert featuring layered white forest cream, white chocolate curls, cherry fillings, and premium ice cream.",
+  },
+  {
+    category: "specialities",
+    categoryLabel: "Speciality",
+    imageSrc: "/falooda.jpg",
     title: "Royal Falooda",
     description: "Traditional rich falooda layers containing sweet rose syrup, vermicelli, basil seeds, and loaded ice cream scoops.",
   },
@@ -61,7 +75,7 @@ const menuProducts = [
   {
     category: "more",
     categoryLabel: "Menu Special",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/burger-1.jpg",
+    imageSrc: "/gourmet_burger.png",
     title: "Gourmet Burgers",
     description: "Juicy, flame-grilled premium burgers stacked with fresh lettuce, melting cheese, tomatoes, and home sauces.",
   },
@@ -71,6 +85,27 @@ const menuProducts = [
     imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/sn.jpg",
     title: "Signature Sandwiches",
     description: "Perfectly toasted warm sandwiches stuffed with spiced savory fillings and garden-fresh greens.",
+  },
+  {
+    category: "more",
+    categoryLabel: "Menu Special",
+    imageSrc: "/crispy_fried_chicken.png",
+    title: "Crispy Fried Chicken",
+    description: "Golden-brown, extra-crisp fried chicken seasoned to perfection with our signature herb blend.",
+  },
+  {
+    category: "more",
+    categoryLabel: "Menu Special",
+    imageSrc: "/loaded_fries.png",
+    title: "Signature Loaded Fries",
+    description: "Steaming hot crispy fries loaded with melted cheese, savory toppings, and special house sauce.",
+  },
+  {
+    category: "more",
+    categoryLabel: "Menu Special",
+    imageSrc: "/french_fries.png",
+    title: "Crispy French Fries",
+    description: "Classic golden, thin-cut potatoes fried to a perfect crunch and lightly dusted with sea salt.",
   },
 ];
 
@@ -161,7 +196,7 @@ export const ItemsSection = () => {
               className="group bg-white rounded-3xl overflow-hidden border border-neutral-100 shadow-[0_10px_35px_rgba(0,0,0,0.015)] hover:shadow-[0_20px_45px_rgba(21,128,61,0.08)] hover:-translate-y-1 transition-all duration-300 flex flex-col h-full"
             >
               {/* Image box with rounded corners */}
-              <div className="relative w-full aspect-[4/3] bg-neutral-50 overflow-hidden">
+              <div className="relative w-full aspect-[1/1] bg-neutral-50 overflow-hidden">
                 <img
                   src={product.imageSrc}
                   alt={product.title}
