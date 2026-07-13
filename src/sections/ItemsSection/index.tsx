@@ -12,17 +12,11 @@ const menuProducts = [
   {
     category: "special",
     categoryLabel: "Special Avil Milk",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/avil.jpg",
-    title: "Classic Avil Milk",
+    imageSrc: "/classic_avil_milk.png",
+    title: "Special Avil Milk",
     description: "Our signature blend of fresh milk, ripe bananas, and perfectly roasted avil (flattened rice) for the ultimate crunch.",
   },
-  {
-    category: "special",
-    categoryLabel: "Special Avil Milk",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/milka.jpg",
-    title: "Nutty Shake Special",
-    description: "Rich avil milk topped with high-quality roasted cashews, almonds, and peanuts for extra nutty goodness.",
-  },
+
   {
     category: "specialities",
     categoryLabel: "Speciality",
@@ -58,19 +52,13 @@ const menuProducts = [
     title: "White Forest Speciality",
     description: "A luxurious dessert featuring layered white forest cream, white chocolate curls, cherry fillings, and premium ice cream.",
   },
-  {
-    category: "specialities",
-    categoryLabel: "Speciality",
-    imageSrc: "/falooda.jpg",
-    title: "Royal Falooda",
-    description: "Traditional rich falooda layers containing sweet rose syrup, vermicelli, basil seeds, and loaded ice cream scoops.",
-  },
+
   {
     category: "more",
     categoryLabel: "Menu Special",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/frui.jpg",
-    title: "Fresh Fruit Salad",
-    description: "A healthy, colorful bowl of fresh seasonal fruits topped with delicious honey glaze or vanilla ice cream.",
+    imageSrc: "/lebanese_salad.png",
+    title: "Lebanese Dessert",
+    description: "An indulgent middle-eastern inspired treat layered with crispy kunafa, rich Nutella, and premium pistachio cream.",
   },
   {
     category: "more",

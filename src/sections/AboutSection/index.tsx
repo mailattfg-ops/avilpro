@@ -15,7 +15,7 @@ export const AboutSection = () => {
             </div>
 
             <img
-              src="https://www.avilpro.in/wp-content/uploads/2024/12/avil.jpg"
+              src="/about_us.png"
               alt="Avil cups"
               className="relative z-10 mt-3 h-[360px] w-full max-w-[470px] object-cover shadow-sm md:mt-4 md:h-[440px] rounded-3xl"
             />

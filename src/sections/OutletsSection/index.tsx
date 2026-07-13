@@ -60,8 +60,7 @@ const outlets = [
   },
   {
     ariaLabel: "7 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
+    imageSrc: "/thaikkad.jpg",
     imageAlt: "Avilpro Thaikkad",
     name: "Avilpro Thaikkad",
     address: "Palli Road, Thaikkad, Thrissur, Kerala",
@@ -70,8 +69,7 @@ const outlets = [
   },
   {
     ariaLabel: "8 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
+    imageSrc: "/guruvayoor.jpg",
     imageAlt: "Avilpro Guruvayoor",
     name: "Avilpro Guruvayoor",
     address: "Opp. Private Bus Stand, Guruvayoor, Thrissur, Kerala",
@@ -80,8 +78,7 @@ const outlets = [
   },
   {
     ariaLabel: "9 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageSrc: "/kunnamkulam.jpg",
     imageAlt: "Avilpro Kunnamkulam",
     name: "Avilpro Kunnamkulam",
     address: "New Private Bus Stand, Kunnamkulam, Thrissur, Kerala",
@@ -90,8 +87,7 @@ const outlets = [
   },
   {
     ariaLabel: "10 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
+    imageSrc: "/mattoor.jpg",
     imageAlt: "Avilpro Mattoor",
     name: "Avilpro Mattoor",
     address: "Near Kalady Sanskrit University, Mattoor, Kalady, Kerala",
@@ -100,8 +96,7 @@ const outlets = [
   },
   {
     ariaLabel: "11 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
+    imageSrc: "/thrissur.jpg",
     imageAlt: "Avilpro Thrissur",
     name: "Avilpro Thrissur",
     address: "Opp. Malabar Gold, MG Road, Thrissur, Kerala",
@@ -110,8 +105,7 @@ const outlets = [
   },
   {
     ariaLabel: "12 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
+    imageSrc: "/vadakkekad.jpg",
     imageAlt: "Avilpro Vadakkekad (Attupuram)",
     name: "Avilpro Vadakkekad (Attupuram)",
     address: "Attupuram, Vadakkekad, Thrissur, Kerala",
