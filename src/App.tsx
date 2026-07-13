@@ -3,6 +3,7 @@ import { LoadingOverlay } from "@/components/LoadingOverlay";
 import { PartnershipModal } from "@/components/PartnershipModal";
 import { VideoModal } from "@/components/VideoModal";
 import { SuccessModal } from "@/components/SuccessModal";
+import { BrochureModal } from "@/components/BrochureModal";
 import { Main } from "@/components/Main";
 import { useState, useEffect } from "react";
 import Lenis from "lenis";
@@ -11,12 +12,15 @@ export type ModalContextType = {
   isPartnershipOpen: boolean;
   isVideoOpen: boolean;
   isSuccessOpen: boolean;
+  isBrochureOpen: boolean;
   openPartnership: () => void;
   closePartnership: () => void;
   openVideo: () => void;
   closeVideo: () => void;
   openSuccess: () => void;
   closeSuccess: () => void;
+  openBrochure: () => void;
+  closeBrochure: () => void;
 };
 
 import { createContext, useContext } from "react";
@@ -24,12 +28,15 @@ export const ModalContext = createContext<ModalContextType>({
   isPartnershipOpen: false,
   isVideoOpen: false,
   isSuccessOpen: false,
+  isBrochureOpen: false,
   openPartnership: () => {},
   closePartnership: () => {},
   openVideo: () => {},
   closeVideo: () => {},
   openSuccess: () => {},
   closeSuccess: () => {},
+  openBrochure: () => {},
+  closeBrochure: () => {},
 });
 
 export const useModal = () => useContext(ModalContext);
@@ -38,6 +45,7 @@ export const App = () => {
   const [isPartnershipOpen, setIsPartnershipOpen] = useState(false);
   const [isVideoOpen, setIsVideoOpen] = useState(false);
   const [isSuccessOpen, setIsSuccessOpen] = useState(false);
+  const [isBrochureOpen, setIsBrochureOpen] = useState(false);
 
   // Initialize smooth scrolling globally
   useEffect(() => {
@@ -67,12 +75,15 @@ export const App = () => {
     isPartnershipOpen,
     isVideoOpen,
     isSuccessOpen,
+    isBrochureOpen,
     openPartnership: () => setIsPartnershipOpen(true),
     closePartnership: () => setIsPartnershipOpen(false),
     openVideo: () => setIsVideoOpen(true),
     closeVideo: () => setIsVideoOpen(false),
     openSuccess: () => setIsSuccessOpen(true),
     closeSuccess: () => setIsSuccessOpen(false),
+    openBrochure: () => setIsBrochureOpen(true),
+    closeBrochure: () => setIsBrochureOpen(false),
   };
 
   return (
@@ -83,8 +94,10 @@ export const App = () => {
         <PartnershipModal />
         <VideoModal />
         <SuccessModal />
+        <BrochureModal />
         <Main />
       </div>
     </ModalContext.Provider>
   );
 };
+

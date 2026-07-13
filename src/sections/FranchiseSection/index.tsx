@@ -1,9 +1,12 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useState } from "react";
+import { useModal } from "@/App";
+import { FileText } from "lucide-react";
 
 export const FranchiseSection = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal(0.1);
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollReveal(0.1);
+  const { openBrochure } = useModal();
   const [form, setForm] = useState({
     name: "",
     phone: "",
@@ -114,14 +117,24 @@ export const FranchiseSection = () => {
                 </div>
               </div>
 
-              <a
-                href="https://maps.google.com/?q=Avilpro%20Premium%20Avil%20Milk%20Shope%20Chavakkad"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex w-full justify-center items-center gap-2 rounded-full border-2 border-yellow-400/40 bg-yellow-400/10 px-6 py-4 text-[15px] font-bold uppercase tracking-widest text-yellow-400 transition-all duration-300 hover:bg-yellow-400 hover:text-green-900 hover:border-yellow-400"
-              >
-                View on Google Maps
-              </a>
+              <div className="flex flex-col gap-3.5 mt-4">
+                <button
+                  type="button"
+                  onClick={openBrochure}
+                  className="inline-flex w-full justify-center items-center gap-2.5 rounded-full bg-yellow-400 px-6 py-4 text-[15px] font-black uppercase tracking-widest text-green-950 hover:bg-yellow-300 hover:scale-[1.02] shadow-[0_8px_20px_rgba(251,255,0,0.15)] transition-all duration-300 cursor-pointer border-0"
+                >
+                  <FileText className="h-5 w-5" />
+                  Franchise Details
+                </button>
+                <a
+                  href="https://maps.google.com/?q=Avilpro%20Premium%20Avil%20Milk%20Shope%20Chavakkad"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex w-full justify-center items-center gap-2 rounded-full border-2 border-yellow-400/40 bg-yellow-400/10 px-6 py-4 text-[15px] font-bold uppercase tracking-widest text-yellow-400 transition-all duration-300 hover:bg-yellow-400 hover:text-green-900 hover:border-yellow-400"
+                >
+                  View on Google Maps
+                </a>
+              </div>
             </div>
 
             {/* Send Enquiry Form */}
