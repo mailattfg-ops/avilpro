@@ -11,7 +11,7 @@ export const FranchiseSection = () => {
     name: "",
     phone: "",
     email: "",
-    location: "Chavakkad",
+    location: "",
     message: "",
   });
 
@@ -24,7 +24,7 @@ export const FranchiseSection = () => {
       `Name: ${form.name}`,
       `Phone: ${form.phone}`,
       `Email: ${form.email}`,
-      `Preferred Location: ${form.location}`,
+      `Location: ${form.location}`,
       `Message: ${form.message}`,
     ].join("%0A");
 
@@ -39,7 +39,7 @@ export const FranchiseSection = () => {
       name: "",
       phone: "",
       email: "",
-      location: "Chavakkad",
+      location: "",
       message: "",
     });
   };
@@ -85,8 +85,8 @@ export const FranchiseSection = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {[
                     { label: "Phone", value: "+91 9497711171", full: false },
-                    { label: "Email", value: "avilpro.official@gmail.com", full: false },
-                    { label: "Location", value: "Avilpro Premium Avil Milk Shope, Chavakkad PO, Thrissur, Kerala", full: true },
+                    { label: "Email", value: "operation@coregrain.in", full: false },
+                    { label: "Location", value: "Door No - 2/1149, i86, Suite No - B8, First Floor, Tower 2, Hilite Business Park, G.A College P.O, Kozhikode, Kerala, 673014", full: true },
                   ].map((item) => (
                     <div
                       key={item.label}
@@ -133,7 +133,7 @@ export const FranchiseSection = () => {
                   Franchise Details
                 </button>
                 <a
-                  href="https://maps.google.com/?q=Avilpro%20Premium%20Avil%20Milk%20Shope%20Chavakkad"
+                  href="https://maps.google.com/?q=Hilite+Business+Park+Kozhikode"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex w-full justify-center items-center gap-2 rounded-full border-2 border-yellow-400/40 bg-yellow-400/10 px-6 py-4 text-[15px] font-bold uppercase tracking-widest text-yellow-400 transition-all duration-300 hover:bg-yellow-400 hover:text-green-900 hover:border-yellow-400"
@@ -188,17 +188,16 @@ export const FranchiseSection = () => {
                     />
                   </div>
                   <div className="flex flex-col gap-1.5">
-                    <label className="text-yellow-400/80 text-xs font-semibold uppercase tracking-wider">Preferred Location</label>
-                    <select
+                    <label className="text-yellow-400/80 text-xs font-semibold uppercase tracking-wider">Location</label>
+                    <input
+                      type="text"
                       value={form.location}
                       onChange={(e) => setForm((p) => ({ ...p, location: e.target.value }))}
-                      className="w-full rounded-2xl border-2 border-white/10 px-5 py-4 text-sm md:text-base outline-none focus:border-yellow-400 transition-all text-white appearance-none"
+                      placeholder="e.g. Kozhikode"
+                      className="w-full rounded-2xl border-2 border-white/10 px-5 py-4 text-sm md:text-base text-white outline-none placeholder:text-white/30 focus:border-yellow-400 transition-all"
                       style={{ backgroundColor: 'rgba(255,255,255,0.08)' }}
-                    >
-                      <option className="text-black">Chavakkad</option>
-                      <option className="text-black">Guruvayoor</option>
-                      <option className="text-black">Attupurram</option>
-                    </select>
+                      required
+                    />
                   </div>
                 </div>
                 <div className="flex flex-col gap-1.5">

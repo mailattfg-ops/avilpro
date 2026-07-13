@@ -105,8 +105,8 @@ export const Footer = () => {
                 <Mail className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-white/50 font-bold uppercase tracking-wider">Email</p>
-                  <a href="mailto:avilpro.official@gmail.com" className="text-sm font-semibold hover:text-yellow-400 transition-colors duration-200">
-                    avilpro.official@gmail.com
+                  <a href="mailto:operation@coregrain.in" className="text-sm font-semibold hover:text-yellow-400 transition-colors duration-200">
+                    operation@coregrain.in
                   </a>
                 </div>
               </li>
@@ -114,8 +114,8 @@ export const Footer = () => {
                 <MapPin className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-white/50 font-bold uppercase tracking-wider">Headquarters</p>
-                  <p className="text-sm font-semibold text-green-100/90">
-                    Chavakkad PO, Thrissur, Kerala
+                  <p className="text-sm font-semibold text-green-100/90 leading-relaxed">
+                    Door No - 2/1149, i86, Suite No - B8, First Floor, Tower 2, Hilite Business Park, G.A College P.O, Kozhikode, Kerala, 673014
                   </p>
                 </div>
               </li>
