@@ -24,6 +24,42 @@ const outlets = [
   },
   {
     ariaLabel: "3 / 12",
+    imageSrc: "/thammanam.jpg",
+    imageAlt: "Avilpro Thammanam",
+    name: "Avilpro Thammanam",
+    address: "Mahakavi Vailopilly Road, Thammanam, Kochi, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://maps.app.goo.gl/JMnq8PFfDWRPhkJ19",
+  },
+  {
+    ariaLabel: "4 / 12",
+    imageSrc: "/vadanapally.jpg",
+    imageAlt: "Avilpro Vadanapally",
+    name: "Avilpro Vadanapally",
+    address: "Near Nandi Lath G Mart, Vadanapally, Thrissur, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://maps.app.goo.gl/8X2gADr97qhBSLUAA",
+  },
+  {
+    ariaLabel: "5 / 12",
+    imageSrc: "/eramangalam.jpg",
+    imageAlt: "Avilpro Eramangalam",
+    name: "Avilpro Eramangalam",
+    address: "Kalathil Padi, Eramangalam, Malappuram, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+eramangalam+Kalathil+padi",
+  },
+  {
+    ariaLabel: "6 / 12",
+    imageSrc: "/kazhakkoottam.jpg",
+    imageAlt: "Avilpro Kazhakkoottam",
+    name: "Avilpro Kazhakkoottam",
+    address: "Kazhakkoottam, Trivandrum, Kerala",
+    phone: "+91 9497711171",
+    mapUrl: "https://maps.app.goo.gl/GjgdRFm2em7AtBUK6",
+  },
+  {
+    ariaLabel: "7 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
     imageAlt: "Avilpro Thaikkad",
@@ -33,7 +69,7 @@ const outlets = [
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Thaikkad+Palli+road",
   },
   {
-    ariaLabel: "4 / 12",
+    ariaLabel: "8 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
     imageAlt: "Avilpro Guruvayoor",
@@ -43,7 +79,7 @@ const outlets = [
     mapUrl: "#",
   },
   {
-    ariaLabel: "5 / 12",
+    ariaLabel: "9 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
     imageAlt: "Avilpro Kunnamkulam",
@@ -53,35 +89,7 @@ const outlets = [
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Kunnamkulam+new+private+bus+stand",
   },
   {
-    ariaLabel: "6 / 12",
-    imageSrc: "/thammanam.jpg",
-    imageAlt: "Avilpro Thammanam",
-    name: "Avilpro Thammanam",
-    address: "Mahakavi Vailopilly Road, Thammanam, Kochi, Kerala",
-    phone: "+91 9497711171",
-    mapUrl: "#",
-  },
-  {
-    ariaLabel: "7 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
-    imageAlt: "Avilpro Eramangalam",
-    name: "Avilpro Eramangalam",
-    address: "Kalathil Padi, Eramangalam, Malappuram, Kerala",
-    phone: "+91 9497711171",
-    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+eramangalam+Kalathil+padi",
-  },
-  {
-    ariaLabel: "8 / 12",
-    imageSrc: "/vadanapally.jpg",
-    imageAlt: "Avilpro Vadanapally",
-    name: "Avilpro Vadanapally",
-    address: "Near Nandi Lath G Mart, Vadanapally, Thrissur, Kerala",
-    phone: "+91 9497711171",
-    mapUrl: "https://maps.app.goo.gl/8X2gADr97qhBSLUAA",
-  },
-  {
-    ariaLabel: "9 / 12",
+    ariaLabel: "10 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
     imageAlt: "Avilpro Mattoor",
@@ -91,7 +99,7 @@ const outlets = [
     mapUrl: "https://maps.app.goo.gl/tS4r3z29GoP69RHc7",
   },
   {
-    ariaLabel: "10 / 12",
+    ariaLabel: "11 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
     imageAlt: "Avilpro Thrissur",
@@ -101,7 +109,7 @@ const outlets = [
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Thrissur+mg+road+opp+Malabar+gold",
   },
   {
-    ariaLabel: "11 / 12",
+    ariaLabel: "12 / 12",
     imageSrc:
       "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro7.jpeg",
     imageAlt: "Avilpro Vadakkekad (Attupuram)",
@@ -109,16 +117,6 @@ const outlets = [
     address: "Attupuram, Vadakkekad, Thrissur, Kerala",
     phone: "+91 9497711171",
     mapUrl: "#",
-  },
-  {
-    ariaLabel: "12 / 12",
-    imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro6.jpeg",
-    imageAlt: "Avilpro Kazhakkoottam",
-    name: "Avilpro Kazhakkoottam",
-    address: "Kazhakkoottam, Trivandrum, Kerala",
-    phone: "+91 9497711171",
-    mapUrl: "https://maps.app.goo.gl/GjgdRFm2em7AtBUK6",
   },
 ];
 
