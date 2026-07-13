@@ -120,7 +120,13 @@ export const FranchiseSection = () => {
               <div className="flex flex-col gap-3.5 mt-4">
                 <button
                   type="button"
-                  onClick={openBrochure}
+                  onClick={() => {
+                    if (window.innerWidth < 768) {
+                      window.open("/brochure.pdf", "_blank", "noopener,noreferrer");
+                    } else {
+                      openBrochure();
+                    }
+                  }}
                   className="inline-flex w-full justify-center items-center gap-2.5 rounded-full bg-yellow-400 px-6 py-4 text-[15px] font-black uppercase tracking-widest text-green-950 hover:bg-yellow-300 hover:scale-[1.02] shadow-[0_8px_20px_rgba(251,255,0,0.15)] transition-all duration-300 cursor-pointer border-0"
                 >
                   <FileText className="h-5 w-5" />

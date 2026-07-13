@@ -194,9 +194,18 @@ export const Navbar = () => {
             <a
               href="#contact"
               onClick={(e) => handleLinkClick(e, "#contact")}
-              className="block rounded-[30px] bg-green-700 px-6 py-2.5 text-center text-base font-medium capitalize text-white transition-colors duration-200 hover:bg-yellow-400 hover:text-black"
+              className="block rounded-[30px] bg-green-700 px-6 py-2.5 text-center text-base font-medium capitalize text-white transition-colors duration-200 hover:bg-yellow-400 hover:text-black mb-3"
             >
               Contact Us
+            </a>
+            <a
+              href="/brochure.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
+              className="block rounded-[30px] bg-yellow-400 px-6 py-2.5 text-center text-base font-black capitalize text-green-950 transition-colors duration-200 hover:bg-yellow-300"
+            >
+              Franchise Details
             </a>
           </li>
         </ul>
