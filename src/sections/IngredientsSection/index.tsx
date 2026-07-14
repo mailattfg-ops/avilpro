@@ -31,9 +31,9 @@ export const IngredientsSection = () => {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-zinc-50 px-4 py-16 md:px-0 md:py-24">
+    <section className="relative overflow-hidden bg-yellow-400 px-4 py-16 md:px-0 md:py-24">
       {/* Subtle background decoration */}
-      <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] opacity-40 pointer-events-none" />
+      <div className="absolute inset-0 bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px] opacity-20 pointer-events-none" />
 
       <div className="relative z-10 mx-auto w-full max-w-[1140px] px-2 md:px-4">
         {/* Section Title */}
@@ -43,13 +43,13 @@ export const IngredientsSection = () => {
             titleVisible ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
           }`}
         >
-          <h6 className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-green-800 md:text-sm">
+          <h6 className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-green-900 md:text-sm">
             Our Quality Standards
           </h6>
-          <h1 className="text-4xl font-extrabold uppercase tracking-tight text-green-700 md:text-6xl">
+          <h1 className="text-4xl font-extrabold uppercase tracking-tight text-green-800 md:text-6xl">
             Why Choose Us?
           </h1>
-          <p className="mt-4 mx-auto max-w-xl text-sm font-medium text-neutral-600 md:text-base">
+          <p className="mt-4 mx-auto max-w-xl text-sm font-medium text-green-900 md:text-base">
             We merge traditional values with modern food engineering to deliver consistent, delicious, and high-quality milkshakes.
           </p>
         </div>

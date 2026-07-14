@@ -70,7 +70,7 @@ const menuProducts = [
   {
     category: "more",
     categoryLabel: "Menu Special",
-    imageSrc: "https://www.avilpro.in/wp-content/uploads/2024/12/sn.jpg",
+    imageSrc: "/sn.jpg",
     title: "Signature Sandwiches",
     description: "Perfectly toasted warm sandwiches stuffed with spiced savory fillings and garden-fresh greens.",
   },
@@ -106,12 +106,12 @@ export const ItemsSection = () => {
     : menuProducts.filter(p => p.category === activeCategory);
 
   return (
-    <section className="relative overflow-hidden bg-white px-4 py-16 md:px-0 md:py-24">
+    <section className="relative overflow-hidden bg-yellow-400 px-4 py-16 md:px-0 md:py-24">
       {/* Background Decorative Drift text */}
       <div className="pointer-events-none absolute inset-x-0 top-[40%] hidden md:block">
         <div
           className="select-none text-center text-[clamp(76px,10vw,145px)] font-black uppercase leading-none tracking-[-0.08em]"
-          style={{ color: "rgba(22, 163, 74, 0.08)" }}
+          style={{ color: "rgba(22, 163, 74, 0.12)" }}
         >
           AVILPRO PREMIUM MENU
         </div>
@@ -121,13 +121,13 @@ export const ItemsSection = () => {
         {/* Header Block with Flex Columns */}
         <div ref={titleRef} className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-12 md:mb-16">
           <div className={`transition-all duration-700 ${titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
-            <h6 className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-yellow-500 md:text-sm">
+            <h6 className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-green-900 md:text-sm">
               Discover Our Delights
             </h6>
-            <h1 className="text-4xl font-extrabold uppercase tracking-tight text-green-700 md:text-6xl">
+            <h1 className="text-4xl font-extrabold uppercase tracking-tight text-green-800 md:text-6xl">
               Our Premium Menu
             </h1>
-            <p className="mt-2 text-sm font-medium text-neutral-600 md:text-base max-w-xl">
+            <p className="mt-2 text-sm font-medium text-green-900 md:text-base max-w-xl">
               Combine traditional Kerala values with high culinary standards. Explore our signature shakes, avil milks, and continental snacks.
             </p>
           </div>

@@ -117,7 +117,7 @@ const outlets = [
 export const OutletsSection = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollReveal(0.1);
   return (
-    <section className="relative box-border overflow-hidden bg-white px-2 py-8 md:px-0 md:py-6">
+    <section className="relative box-border overflow-hidden bg-yellow-400 px-2 py-8 md:px-0 md:py-6">
       <div className="mx-auto w-full max-w-none px-2 md:max-w-[1140px] md:px-2">
         <div
           ref={titleRef}
