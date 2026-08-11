@@ -193,7 +193,7 @@ export const LoadingOverlay = () => {
               opacity: 0.8,
             }}
           >
-            Thrissur&apos;s Favourite Avil Milk Brand
+            Kerala&apos;s Favourite Avil Milk Brand
           </div>
 
           {/* Proper colored Avilpro logo on green side */}

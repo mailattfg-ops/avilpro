@@ -41,7 +41,7 @@ export const Footer = () => {
               className="w-[120px] object-contain mb-6"
             />
             <p className="text-sm md:text-base text-green-100/80 leading-relaxed mb-6 font-medium">
-              Thrissur's favourite premium Avilmilk brand. Delivering nostalgic street classics reimagined with premium quality.
+              Kerala's favourite premium Avilmilk brand. Delivering nostalgic street classics reimagined with premium quality.
             </p>
             <div className="flex items-center gap-3">
               <a

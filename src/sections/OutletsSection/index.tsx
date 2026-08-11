@@ -65,7 +65,7 @@ const outlets = [
     name: "Avilpro Thaikkad",
     address: "Palli Road, Thaikkad, Thrissur, Kerala",
     phone: "+91 9497711171",
-    mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Thaikkad+Palli+road",
+    mapUrl: "https://maps.app.goo.gl/9dt8mLhFa2rwsZCX9",
   },
   {
     ariaLabel: "8 / 12",
@@ -110,7 +110,7 @@ const outlets = [
     name: "Avilpro Vadakkekad (Attupuram)",
     address: "Attupuram, Vadakkekad, Thrissur, Kerala",
     phone: "+91 9497711171",
-    mapUrl: "#",
+    mapUrl: "https://maps.app.goo.gl/LG4WUj5BMqnYsGM4A",
   },
 ];
 

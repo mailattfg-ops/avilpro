@@ -50,7 +50,7 @@ export const IngredientsSection = () => {
             Why Choose Us?
           </h1>
           <p className="mt-4 mx-auto max-w-xl text-sm font-medium text-green-900 md:text-base">
-            We merge traditional values with modern food engineering to deliver consistent, delicious, and high-quality milkshakes.
+            We merge traditional values with modern food engineering to deliver consistent, delicious, and high-quality food and beverages.
           </p>
         </div>
 
@@ -87,28 +87,22 @@ export const IngredientsSection = () => {
         <div className="relative w-full aspect-[21/9] min-h-[220px] rounded-3xl md:rounded-[40px] overflow-hidden shadow-2xl group/video">
           {/* Backdrop Image with zoom effect */}
           <img
-            src="/avilpro_video_banner.png"
-            alt="Avil Milk Preview Banner"
+            src="/avilpro_video_cover.png"
+            alt="Watch The Avilpro Story — click to view brand film"
             className="absolute inset-0 w-full h-full object-cover rounded-3xl md:rounded-[40px] group-hover/video:scale-105 transition-transform duration-1000"
           />
           {/* Overlay mask */}
-          <div className="absolute inset-0 bg-black/40 group-hover/video:bg-black/50 transition-colors duration-500 rounded-3xl md:rounded-[40px]" />
+          <div className="absolute inset-0 transition-colors duration-500 rounded-3xl md:rounded-[40px] group-hover/video:bg-green-950/15" />
 
           {/* Centered Play UI */}
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
             <button
               onClick={openVideo}
-              className="flex h-16 w-16 items-center justify-center rounded-full bg-white/20 hover:bg-green-700 border-2 border-white text-white hover:scale-110 hover:shadow-lg transition-all duration-300 cursor-pointer focus:outline-none"
+              className="flex h-16 w-16 items-center justify-center rounded-full bg-green-700 hover:bg-green-800 border-2 border-white/70 text-yellow-400 shadow-lg hover:scale-110 hover:shadow-xl transition-all duration-300 cursor-pointer focus:outline-none"
               aria-label="Play Brand Video"
             >
               <Play className="h-6 w-6 fill-current pl-0.5" />
             </button>
-            <h3 className="mt-4 text-lg md:text-2xl font-extrabold uppercase text-white tracking-wide">
-              Watch The Avilpro Story
-            </h3>
-            <p className="text-xs md:text-sm font-semibold text-white/70 tracking-widest uppercase mt-1">
-              Click to view brand film
-            </p>
           </div>
         </div>
       </div>

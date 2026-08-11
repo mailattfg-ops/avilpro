@@ -15,9 +15,10 @@ export const HeroContent = () => {
           mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
         }`}
       >
-        <span className="h-1.5 w-1.5 rounded-full bg-green-700 animate-pulse" />
-        <span className="text-[11px] font-semibold uppercase tracking-[0.18em] text-green-700 md:text-[13px]">
-          Thrissur&apos;s Favourite Premium Avilmilk Brand
+        <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-green-700 animate-pulse" />
+        <span className="max-w-[560px] text-left text-[11px] font-semibold uppercase leading-relaxed tracking-[0.18em] text-green-700 md:text-[13px]">
+          Combine traditional Kerala values with high culinary standards.
+          Explore our signature avil milks, and continental snacks.
         </span>
       </div>
 
@@ -59,7 +60,7 @@ export const HeroContent = () => {
         }`}
         style={{ transitionDelay: "160ms" }}
       >
-        Fresh avil milk, rich shakes, and signature flavours served every day from the heart of Thrissur.
+        Fresh avil milk and signature flavours served every day from the heart of Kerala.
       </p>
 
       {/* CTAs */}

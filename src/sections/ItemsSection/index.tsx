@@ -128,7 +128,7 @@ export const ItemsSection = () => {
               Our Premium Menu
             </h1>
             <p className="mt-2 text-sm font-medium text-green-900 md:text-base max-w-xl">
-              Combine traditional Kerala values with high culinary standards. Explore our signature shakes, avil milks, and continental snacks.
+              Combine traditional Kerala values with high culinary standards. Explore our signature avil milks, and continental snacks.
             </p>
           </div>
 

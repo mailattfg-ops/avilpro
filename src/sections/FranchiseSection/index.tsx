@@ -65,7 +65,7 @@ export const FranchiseSection = () => {
               Contact Avilpro
             </h1>
             <p className="text-green-100/80 text-base md:text-lg font-medium leading-relaxed max-w-lg mx-auto">
-              Thrissur&apos;s favourite premium Avil Milk brand — reach out for franchise opportunities or customer enquiries.
+              Reach out for franchise opportunities or customer enquiries.
             </p>
           </div>
 
@@ -97,22 +97,10 @@ export const FranchiseSection = () => {
                     </div>
                   ))}
 
-                  {/* Opening Hours — vertical list */}
+                  {/* Opening Hours */}
                   <div className="sm:col-span-2 flex flex-col gap-2 bg-white/10 hover:bg-white/15 transition-colors duration-200 p-5 rounded-3xl border border-white/10">
                     <strong className="text-yellow-400 font-bold text-xs tracking-[0.18em] uppercase">Opening Hours</strong>
-                    <ul className="space-y-1.5 mt-1">
-                      {[
-                        ["Chavakkad", "10am – 1am"],
-                        ["Guruvayoor", "10am – 1am"],
-                        ["Attupurram", "10am – 11pm"],
-                      ].map(([place, time]) => (
-                        <li key={place} className="flex items-center gap-2 text-sm text-white/85">
-                          <span className="w-1.5 h-1.5 rounded-full bg-yellow-400 shrink-0" />
-                          <span className="font-medium text-white">{place}:</span>
-                          <span>{time}</span>
-                        </li>
-                      ))}
-                    </ul>
+                    <span className="text-white/85 text-sm md:text-[15px] leading-relaxed">11 AM – 12 PM</span>
                   </div>
                 </div>
               </div>
