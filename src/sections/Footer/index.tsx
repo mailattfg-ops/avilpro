@@ -132,7 +132,7 @@ export const Footer = () => {
             </p>
             <div className="rounded-2xl bg-white/5 border border-white/10 p-4 text-center">
               <p className="text-xs font-bold text-yellow-400 uppercase tracking-widest">
-                Kerala's First
+                Kerala's Favourite
               </p>
               <p className="text-sm font-extrabold text-white mt-1 uppercase">
                 Premium Avil Milk Chain
