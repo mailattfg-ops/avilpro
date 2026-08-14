@@ -79,12 +79,12 @@ export const Navbar = () => {
               className="block flex-shrink-0 transition-opacity duration-200 hover:opacity-80"
             >
               <img
-                src="https://www.avilpro.in/wp-content/uploads/2024/12/avil-pro-removebg-preview.png"
+                src="/logo.png"
                 alt="Avilpro logo"
                 className="hidden h-[44px] w-auto object-contain md:block"
               />
               <img
-                src="https://www.avilpro.in/wp-content/uploads/2024/12/avil-pro-removebg-preview.png"
+                src="/logo.png"
                 alt="Avilpro logo"
                 className="block h-[34px] w-auto object-contain md:hidden"
               />
@@ -157,7 +157,7 @@ export const Navbar = () => {
       >
         <div className="flex items-center justify-between border-b border-neutral-100 px-5 py-4">
           <img
-            src="https://www.avilpro.in/wp-content/uploads/2024/12/avil-pro-removebg-preview.png"
+            src="/logo.png"
             alt="Avilpro logo"
             className="w-[49px] object-contain"
           />

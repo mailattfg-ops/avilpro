@@ -6,7 +6,7 @@ const outlets = [
   {
     ariaLabel: "1 / 12",
     imageSrc:
-      "https://www.avilpro.in/wp-content/uploads/2025/01/avil-pro8.jpeg",
+      "/chavakkad.jpg",
     imageAlt: "Avilpro Chavakkad",
     name: "Avilpro Chavakkad",
     address: "Beach road, Chavakkad, Thrissur, Kerala",

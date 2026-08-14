@@ -36,7 +36,7 @@ export const Footer = () => {
           {/* Column 1: Brand Info */}
           <div className="flex flex-col items-start">
             <img
-              src="https://www.avilpro.in/wp-content/uploads/2024/12/avil-pro-removebg-preview.png"
+              src="/logo.png"
               alt="Avilpro logo"
               className="w-[120px] object-contain mb-6"
             />

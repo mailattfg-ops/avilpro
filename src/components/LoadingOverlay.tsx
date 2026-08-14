@@ -81,7 +81,7 @@ export const LoadingOverlay = () => {
           }}
         >
           <img
-            src="https://www.avilpro.in/wp-content/uploads/2024/12/avil-pro-removebg-preview.png"
+            src="/logo.png"
             alt="Avilpro"
             style={{
               width: 175,
@@ -198,7 +198,7 @@ export const LoadingOverlay = () => {
 
           {/* Proper colored Avilpro logo on green side */}
           <img
-            src="https://www.avilpro.in/wp-content/uploads/2024/12/avil-pro-removebg-preview.png"
+            src="/logo.png"
             alt="Avilpro"
             style={{
               marginTop: 28,

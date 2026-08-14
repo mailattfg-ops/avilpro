@@ -1,12 +1,12 @@
 import { useState, useRef, useEffect, useCallback } from "react";
 
 const allImages = [
-  "https://www.avilpro.in/wp-content/uploads/2026/01/Menu1.jpeg",
-  "https://www.avilpro.in/wp-content/uploads/2026/01/Menu2.jpeg",
-  "https://www.avilpro.in/wp-content/uploads/2026/01/Menu-3.jpeg",
-  "https://www.avilpro.in/wp-content/uploads/2026/01/Menu4.jpeg",
-  "https://www.avilpro.in/wp-content/uploads/2026/01/Menu5.jpeg",
-  "https://www.avilpro.in/wp-content/uploads/2026/01/Menu-6.jpeg",
+  "/menu1.jpg",
+  "/menu2.jpg",
+  "/menu3.jpg",
+  "/menu4.jpg",
+  "/menu5.jpg",
+  "/menu6.jpg",
   "/white_forest_speciality.png",
   "/falooda.jpg",
   "/premium_shake.jpg",
