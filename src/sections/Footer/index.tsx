@@ -45,7 +45,7 @@ export const Footer = () => {
             </p>
             <div className="flex items-center gap-3">
               <a
-                href="https://www.facebook.com/avilpro"
+                href="https://www.facebook.com/Avilproofficialindia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-10 h-10 rounded-xl bg-white/5 border border-white/10 hover:border-yellow-400 text-white hover:text-[#0c2b1c] hover:bg-yellow-400 transition-all duration-300"

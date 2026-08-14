@@ -6,7 +6,7 @@ export const FooterSocial = () => {
           <ul className="items-center gap-x-[10.56px] flex gap-y-[10.56px] pl-0 md:gap-x-[15px] md:gap-y-[15px]">
             <li>
               <a
-                href="https://www.facebook.com/avilpro"
+                href="https://www.facebook.com/Avilproofficialindia"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center w-9 h-9 bg-neutral-800 rounded-full text-white hover:bg-blue-600 transition-colors duration-200"
