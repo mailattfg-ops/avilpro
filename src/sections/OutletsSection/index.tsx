@@ -10,7 +10,7 @@ const outlets = [
     imageAlt: "Avilpro Chavakkad",
     name: "Avilpro Chavakkad",
     address: "Beach road, Chavakkad, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 80862 22324",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Chavakkad+Beach+road",
   },
   {
@@ -19,7 +19,7 @@ const outlets = [
     imageAlt: "Avilpro Pavaratty",
     name: "Avilpro Pavaratty",
     address: "Near VKG Cinemas, Pavaratty, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "9746525282",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Pavaratty+near+Vkg+cinemas",
   },
   {
@@ -37,7 +37,7 @@ const outlets = [
     imageAlt: "Avilpro Vadanapally",
     name: "Avilpro Vadanapally",
     address: "Near Nandi Lath G Mart, Vadanapally, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 96331 09155",
     mapUrl: "https://maps.app.goo.gl/8X2gADr97qhBSLUAA",
   },
   {
@@ -46,7 +46,7 @@ const outlets = [
     imageAlt: "Avilpro Eramangalam",
     name: "Avilpro Eramangalam",
     address: "Kalathil Padi, Eramangalam, Malappuram, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 95449 71393",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+eramangalam+Kalathil+padi",
   },
   {
@@ -55,7 +55,7 @@ const outlets = [
     imageAlt: "Avilpro Kazhakkoottam",
     name: "Avilpro Kazhakkoottam",
     address: "Kazhakkoottam, Trivandrum, Kerala",
-    phone: "+91 9497711171",
+    phone: "0751-1109988",
     mapUrl: "https://maps.app.goo.gl/GjgdRFm2em7AtBUK6",
   },
   {
@@ -64,7 +64,7 @@ const outlets = [
     imageAlt: "Avilpro Thaikkad",
     name: "Avilpro Thaikkad",
     address: "Palli Road, Thaikkad, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "04872081188",
     mapUrl: "https://maps.app.goo.gl/9dt8mLhFa2rwsZCX9",
   },
   {
@@ -73,7 +73,7 @@ const outlets = [
     imageAlt: "Avilpro Guruvayoor",
     name: "Avilpro Guruvayoor",
     address: "Opp. Private Bus Stand, Guruvayoor, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "04872081188",
     mapUrl: "https://maps.app.goo.gl/9dt8mLhFa2rwsZCX9",
   },
   {
@@ -82,7 +82,7 @@ const outlets = [
     imageAlt: "Avilpro Kunnamkulam",
     name: "Avilpro Kunnamkulam",
     address: "New Private Bus Stand, Kunnamkulam, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 99473 00202",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Kunnamkulam+new+private+bus+stand",
   },
   {
@@ -91,7 +91,7 @@ const outlets = [
     imageAlt: "Avilpro Mattoor",
     name: "Avilpro Mattoor",
     address: "Near Kalady Sanskrit University, Mattoor, Kalady, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 96457 08862",
     mapUrl: "https://maps.app.goo.gl/tS4r3z29GoP69RHc7",
   },
   {
@@ -100,7 +100,7 @@ const outlets = [
     imageAlt: "Avilpro Thrissur",
     name: "Avilpro Thrissur",
     address: "Opp. Malabar Gold, MG Road, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 94006 90690",
     mapUrl: "https://www.google.com/maps/search/?api=1&query=Avil+Pro+Thrissur+mg+road+opp+Malabar+gold",
   },
   {
@@ -109,7 +109,7 @@ const outlets = [
     imageAlt: "Avilpro Vadakkekad (Attupuram)",
     name: "Avilpro Vadakkekad (Attupuram)",
     address: "Attupuram, Vadakkekad, Thrissur, Kerala",
-    phone: "+91 9497711171",
+    phone: "+91 86061 46638",
     mapUrl: "https://maps.app.goo.gl/LG4WUj5BMqnYsGM4A",
   },
 ];
