@@ -45,7 +45,7 @@ export const FranchiseSection = () => {
   };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-green-800 via-green-850 to-green-950 leading-[10.56px] py-16 md:py-24">
+    <section className="relative overflow-hidden bg-gradient-to-br from-green-800 via-green-850 to-green-950 leading-[10.56px] py-10 md:py-24">
       {/* Decorative blobs */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute -top-32 -left-32 w-[500px] h-[500px] rounded-full bg-yellow-400/10 blur-[120px]" />
@@ -53,7 +53,7 @@ export const FranchiseSection = () => {
       </div>
 
       <div className="relative max-w-none w-full z-[3] mx-auto px-6 md:max-w-[1300px] lg:px-12">
-        <div className="flex flex-col justify-center items-center gap-y-14">
+        <div className="flex flex-col justify-center items-center gap-y-8 md:gap-y-14">
 
           {/* Heading */}
           <div
@@ -61,7 +61,7 @@ export const FranchiseSection = () => {
             className={`text-center transition-all duration-700 ${titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"}`}
           >
             <p className="text-yellow-400/70 text-sm font-semibold uppercase tracking-[0.25em] mb-3">Get In Touch</p>
-            <h1 className="text-yellow-400 text-5xl md:text-7xl font-black uppercase tracking-tight mb-5 drop-shadow-md">
+            <h1 className="text-yellow-400 text-5xl md:text-7xl font-black uppercase tracking-tight leading-tight mb-5 drop-shadow-md">
               Contact Avilpro
             </h1>
             <p className="text-green-100/80 text-base md:text-lg font-medium leading-relaxed max-w-lg mx-auto">
@@ -75,9 +75,9 @@ export const FranchiseSection = () => {
             className={`grid grid-cols-1 lg:grid-cols-2 gap-6 w-full transition-all duration-700 delay-200 ${cardsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-16"}`}
           >
             {/* Contact Details Card */}
-            <div className="relative backdrop-blur-xl bg-white/5 shadow-[0_32px_64px_rgba(0,0,0,0.3)] border border-white/10 p-10 rounded-[40px] flex flex-col justify-between gap-8">
+            <div className="relative backdrop-blur-xl bg-white/5 shadow-[0_32px_64px_rgba(0,0,0,0.3)] border border-white/10 p-6 md:p-10 rounded-[40px] flex flex-col justify-between gap-8">
               <div className="space-y-6">
-                <h3 className="text-yellow-400 text-2xl font-black tracking-wider uppercase flex items-center gap-3">
+                <h3 className="text-yellow-400 text-2xl font-black tracking-wider uppercase leading-tight flex items-center gap-3">
                   <span className="w-10 h-[2px] bg-yellow-400/50 rounded-full"></span>
                   Contact Info
                 </h3>
@@ -85,7 +85,7 @@ export const FranchiseSection = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   {[
                     { label: "Phone", value: "+91 9497711171", full: false },
-                    { label: "Email", value: "operation@coregrain.in", full: false },
+                    { label: "Email", value: "operations@coregrain.in", full: false },
                     { label: "Location", value: "Door No - 2/1149, i86, Suite No - B8, First Floor, Tower 2, Hilite Business Park, G.A College P.O, Kozhikode, Kerala, 673014", full: true },
                   ].map((item) => (
                     <div
@@ -115,16 +115,16 @@ export const FranchiseSection = () => {
                       openBrochure();
                     }
                   }}
-                  className="inline-flex w-full justify-center items-center gap-2.5 rounded-full bg-yellow-400 px-6 py-4 text-[15px] font-black uppercase tracking-widest text-green-950 hover:bg-yellow-300 hover:scale-[1.02] shadow-[0_8px_20px_rgba(251,255,0,0.15)] transition-all duration-300 cursor-pointer border-0"
+                  className="inline-flex w-full justify-center items-center gap-2.5 rounded-full bg-yellow-400 px-6 py-4 text-[15px] leading-tight text-center font-black uppercase tracking-widest text-green-950 hover:bg-yellow-300 hover:scale-[1.02] shadow-[0_8px_20px_rgba(251,255,0,0.15)] transition-all duration-300 cursor-pointer border-0"
                 >
-                  <FileText className="h-5 w-5" />
+                  <FileText className="h-5 w-5 shrink-0" />
                   Franchise Details
                 </button>
                 <a
                   href="https://maps.google.com/?q=Hilite+Business+Park+Kozhikode"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex w-full justify-center items-center gap-2 rounded-full border-2 border-yellow-400/40 bg-yellow-400/10 px-6 py-4 text-[15px] font-bold uppercase tracking-widest text-yellow-400 transition-all duration-300 hover:bg-yellow-400 hover:text-green-900 hover:border-yellow-400"
+                  className="inline-flex w-full justify-center items-center gap-2 rounded-full border-2 border-yellow-400/40 bg-yellow-400/10 px-6 py-4 text-[15px] leading-tight text-center font-bold uppercase tracking-widest text-yellow-400 transition-all duration-300 hover:bg-yellow-400 hover:text-green-900 hover:border-yellow-400"
                 >
                   View on Google Maps
                 </a>
@@ -132,8 +132,8 @@ export const FranchiseSection = () => {
             </div>
 
             {/* Send Enquiry Form */}
-            <div className="relative backdrop-blur-xl bg-white/5 shadow-[0_32px_64px_rgba(0,0,0,0.3)] border border-white/10 p-10 rounded-[40px]">
-              <h4 className="text-yellow-400 text-2xl font-black tracking-wider uppercase mb-8 flex items-center gap-3">
+            <div className="relative backdrop-blur-xl bg-white/5 shadow-[0_32px_64px_rgba(0,0,0,0.3)] border border-white/10 p-6 md:p-10 rounded-[40px]">
+              <h4 className="text-yellow-400 text-2xl font-black tracking-wider uppercase leading-tight mb-8 flex items-center gap-3">
                 <span className="w-10 h-[2px] bg-yellow-400/50 rounded-full"></span>
                 Send an Enquiry
               </h4>
@@ -202,7 +202,7 @@ export const FranchiseSection = () => {
                 </div>
                 <button
                   type="submit"
-                  className="w-full rounded-full bg-yellow-400 px-8 py-5 text-[15px] font-black uppercase tracking-widest text-green-900 shadow-[0_8px_20px_rgba(251,255,0,0.3)] transition-all duration-300 hover:bg-yellow-300 hover:scale-[1.02] hover:shadow-[0_12px_28px_rgba(251,255,0,0.45)] mt-2"
+                  className="w-full rounded-full bg-yellow-400 px-8 py-5 text-[15px] leading-tight font-black uppercase tracking-widest text-green-900 shadow-[0_8px_20px_rgba(251,255,0,0.3)] transition-all duration-300 hover:bg-yellow-300 hover:scale-[1.02] hover:shadow-[0_12px_28px_rgba(251,255,0,0.45)] mt-2"
                 >
                   Send Message
                 </button>

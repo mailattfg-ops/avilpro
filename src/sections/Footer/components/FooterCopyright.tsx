@@ -7,10 +7,10 @@ export const FooterCopyright = () => {
       <div className="flex flex-col items-center gap-1 md:items-end">
         <h2 className="text-neutral-800 text-sm font-medium leading-[22.528px] text-center md:text-start">
           <a
-            href="mailto:operation@coregrain.in"
+            href="mailto:operations@coregrain.in"
             className="hover:underline hover:text-neutral-600 transition-colors duration-200"
           >
-            operation@coregrain.in
+            operations@coregrain.in
           </a>
         </h2>
         <div className="flex items-center gap-1.5 mt-1 pb-1">

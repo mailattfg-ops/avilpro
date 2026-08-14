@@ -106,7 +106,7 @@ export const ItemsSection = () => {
     : menuProducts.filter(p => p.category === activeCategory);
 
   return (
-    <section className="relative overflow-hidden bg-yellow-400 px-4 py-16 md:px-0 md:py-24">
+    <section className="relative overflow-hidden bg-yellow-400 px-4 py-10 md:px-0 md:py-24">
       {/* Background Decorative Drift text */}
       <div className="pointer-events-none absolute inset-x-0 top-[40%] hidden md:block">
         <div
@@ -119,7 +119,7 @@ export const ItemsSection = () => {
 
       <div className="box-border max-w-[1140px] mx-auto px-2 md:px-4">
         {/* Header Block with Flex Columns */}
-        <div ref={titleRef} className="flex flex-col md:flex-row md:items-center justify-between gap-8 mb-12 md:mb-16">
+        <div ref={titleRef} className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8 md:gap-8 md:mb-16">
           <div className={`transition-all duration-700 ${titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"}`}>
             <h6 className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-green-900 md:text-sm">
               Discover Our Delights
@@ -127,20 +127,19 @@ export const ItemsSection = () => {
             <h1 className="text-4xl font-extrabold uppercase tracking-tight text-green-800 md:text-6xl">
               Our Premium Menu
             </h1>
-            <p className="mt-2 text-sm font-medium text-green-900 md:text-base max-w-xl">
-              Combine traditional Kerala values with high culinary standards. Explore our signature avil milks, and continental snacks.
+            <p className="mt-2 text-sm font-medium text-green-900 md:text-base max-w-xl text-justify text-pretty hyphens-auto [hyphenate-limit-chars:10_4_4]">
+              Combine traditional Kerala values with high culinary standards. Explore our signature avil milks, and continental foods.
             </p>
           </div>
 
-          {/* Since 1985 round block */}
+          {/* Since 1980 round block */}
           <div
-            className={`relative shrink-0 flex items-center justify-center h-44 w-44 md:h-52 md:w-52 mx-auto md:mx-0 transition-all duration-700 delay-200 ${
-              titleVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"
-            }`}
+            className={`relative shrink-0 flex items-center justify-center h-44 w-44 md:h-52 md:w-52 mx-auto md:mx-0 transition-all duration-700 delay-200 ${titleVisible ? "opacity-100 scale-100" : "opacity-0 scale-75"
+              }`}
           >
             <div className="absolute inset-0 rounded-full bg-yellow-100/80" />
             <div className="absolute flex h-36 w-36 md:h-44 md:w-44 items-center justify-center rounded-full bg-yellow-400 text-center text-lg md:text-2xl font-black uppercase leading-none tracking-tight text-green-800">
-              Since 1985
+              Since 1980
             </div>
             <div className="absolute -inset-6 animate-[spin-slow_15s_linear_infinite] pointer-events-none opacity-[0.15]">
               <svg viewBox="0 0 400 400" className="w-full h-full text-green-700">
@@ -151,7 +150,7 @@ export const ItemsSection = () => {
                 />
                 <text fill="currentColor" className="font-extrabold uppercase tracking-[0.28em] text-[36px]">
                   <textPath href="#circlePath" startOffset="0%">
-                    THE AVILPRO'S STORY • THE AVILPRO'S STORY • 
+                    THE AVILPRO'S STORY • THE AVILPRO'S STORY •
                   </textPath>
                 </text>
               </svg>
@@ -160,16 +159,15 @@ export const ItemsSection = () => {
         </div>
 
         {/* Category Switcher Tabs */}
-        <div className="flex flex-wrap items-center justify-center gap-3 mb-12 border-b border-neutral-100 pb-6">
+        <div className="flex flex-wrap items-center justify-center gap-3 mb-8 md:mb-12 border-b border-neutral-100 pb-6">
           {menuCategories.map((category) => (
             <button
               key={category.id}
               onClick={() => setActiveCategory(category.id)}
-              className={`px-6 py-2.5 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider transition-all duration-300 border focus:outline-none cursor-pointer ${
-                activeCategory === category.id
-                  ? "bg-green-700 text-yellow-400 border-green-700 shadow-md shadow-green-700/10"
-                  : "bg-white text-neutral-600 border-neutral-200 hover:border-green-700 hover:text-green-700"
-              }`}
+              className={`px-6 py-2.5 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider transition-all duration-300 border focus:outline-none cursor-pointer ${activeCategory === category.id
+                ? "bg-green-700 text-yellow-400 border-green-700 shadow-md shadow-green-700/10"
+                : "bg-white text-neutral-600 border-neutral-200 hover:border-green-700 hover:text-green-700"
+                }`}
             >
               {category.label}
             </button>
@@ -177,7 +175,7 @@ export const ItemsSection = () => {
         </div>
 
         {/* redesigned Grid items */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10">
           {filteredProducts.map((product, idx) => (
             <div
               key={`${product.title}-${idx}`}
@@ -201,7 +199,7 @@ export const ItemsSection = () => {
                 <h3 className="text-xl font-bold text-neutral-800 group-hover:text-green-700 transition-colors duration-300">
                   {product.title}
                 </h3>
-                <p className="mt-2 text-sm text-neutral-600 leading-relaxed font-medium flex-grow">
+                <p className="mt-2 text-sm text-neutral-600 leading-relaxed font-medium flex-grow text-left text-pretty">
                   {product.description}
                 </p>
               </div>

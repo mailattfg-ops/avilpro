@@ -1,6 +1,6 @@
 export const AboutSection = () => {
   return (
-    <section className="relative overflow-hidden bg-[#ececec] px-4 pb-16 pt-10 md:px-0 md:pb-24 md:pt-12">
+    <section className="relative overflow-hidden bg-[#ececec] px-4 pb-10 pt-8 md:px-0 md:pb-24 md:pt-12">
       <div className="absolute inset-x-0 bottom-0 h-6 bg-yellow-400 md:h-10" />
       <div className="relative z-10 mx-auto w-full max-w-none px-[5.28px] md:max-w-[1140px] md:px-[7.5px]">
         <div className="grid grid-cols-1 gap-x-16 gap-y-7 md:grid-cols-2 md:gap-y-3">
@@ -10,7 +10,7 @@ export const AboutSection = () => {
                 About Us
               </h6>
               <h1 className="mb-[3.52px] text-[37.5466px] font-extrabold uppercase leading-[34.1674px] tracking-tighter text-green-700 md:mb-[5px] md:text-[68px] xl:text-[80px] md:leading-[1]">
-                Since 1985
+                Since 1980
               </h1>
             </div>
 
@@ -22,7 +22,7 @@ export const AboutSection = () => {
           </div>
 
           <div className="flex flex-col justify-center h-full">
-            <p className="mb-[7.04px] max-w-full text-[16.192px] font-medium capitalize leading-[27.456px] tracking-[0.2816px] text-neutral-800 text-justify md:mb-2.5 md:max-w-[590px] md:pt-2 md:text-xl md:leading-[34px] md:tracking-[0.4px]">
+            <p className="mb-[7.04px] max-w-full text-[16.192px] font-medium capitalize leading-[27.456px] tracking-[0.2816px] text-neutral-800 text-justify text-pretty hyphens-auto [hyphenate-limit-chars:10_4_4] md:mb-2.5 md:max-w-[590px] md:pt-2 md:text-xl md:leading-[34px] md:tracking-[0.4px]">
               Welcome to Avilpro premium Avil Milk Shop, where we serve the
               creamiest, most delicious milkshakes in town! Our mission is to
               provide top-notch quality, exceptional customer service, and a fun,

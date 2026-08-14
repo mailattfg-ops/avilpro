@@ -74,7 +74,7 @@ const outlets = [
     name: "Avilpro Guruvayoor",
     address: "Opp. Private Bus Stand, Guruvayoor, Thrissur, Kerala",
     phone: "+91 9497711171",
-    mapUrl: "#",
+    mapUrl: "https://maps.app.goo.gl/9dt8mLhFa2rwsZCX9",
   },
   {
     ariaLabel: "9 / 12",
@@ -132,7 +132,7 @@ export const OutletsSection = () => {
         </div>
 
         <div className="mx-auto w-full max-w-[1300px]">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 py-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-12 py-4">
             {outlets.map((outlet, i) => (
               <OutletCard
                 key={`${outlet.name}-${i}`}

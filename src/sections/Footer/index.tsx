@@ -22,14 +22,14 @@ export const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-[#0c2b1c] text-white border-t-4 border-yellow-400 pt-16 pb-8 px-4 overflow-hidden">
+    <footer className="relative bg-[#0c2b1c] text-white border-t-4 border-yellow-400 pt-10 pb-8 md:pt-16 px-4 overflow-hidden">
       {/* Decorative vector background */}
       <div className="absolute inset-0 bg-[radial-gradient(#1e3f20_1px,transparent_1px)] [background-size:20px_20px] opacity-20 pointer-events-none" />
 
       <div className="relative z-10 max-w-[1140px] mx-auto">
         <div
           ref={ref}
-          className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 transition-all duration-700 ${
+          className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 transition-all duration-700 ${
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
@@ -105,8 +105,8 @@ export const Footer = () => {
                 <Mail className="h-5 w-5 text-green-500 shrink-0 mt-0.5" />
                 <div>
                   <p className="text-xs text-white/50 font-bold uppercase tracking-wider">Email</p>
-                  <a href="mailto:operation@coregrain.in" className="text-sm font-semibold hover:text-yellow-400 transition-colors duration-200">
-                    operation@coregrain.in
+                  <a href="mailto:operations@coregrain.in" className="text-sm font-semibold hover:text-yellow-400 transition-colors duration-200">
+                    operations@coregrain.in
                   </a>
                 </div>
               </li>

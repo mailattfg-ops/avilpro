@@ -18,7 +18,7 @@ export const HeroContent = () => {
         <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-green-700 animate-pulse" />
         <span className="max-w-[560px] text-left text-[11px] font-semibold uppercase leading-relaxed tracking-[0.18em] text-green-700 md:text-[13px]">
           Combine traditional Kerala values with high culinary standards.
-          Explore our signature avil milks, and continental snacks.
+          Explore our signature avil milks, and continental foods.
         </span>
       </div>
 

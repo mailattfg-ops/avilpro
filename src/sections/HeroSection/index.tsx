@@ -11,7 +11,7 @@ export const HeroSection = () => {
             <div className="relative hidden h-[220px] w-[220px] shrink-0 md:block animate-[float_6s_ease-in-out_infinite]">
               <div className="absolute inset-0 rounded-full bg-yellow-200 opacity-60 animate-[pulse_4s_cubic-bezier(0.4,0,0.6,1)_infinite]" />
               <div className="absolute left-[8%] top-[8%] flex h-[185px] w-[185px] items-center justify-center rounded-full bg-yellow-400 px-6 text-center text-[34px] font-bold uppercase leading-[0.95] tracking-[-0.02em] text-green-700 shadow-xl transition-transform hover:rotate-12 duration-500">
-                Since 1985
+                Since 1980
               </div>
             </div>
           </div>

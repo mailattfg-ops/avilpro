@@ -12,7 +12,7 @@ const timelineData = [
     year: "2009",
     title: "A Strategic Leap Forward",
     subtitle: "Baking Bakes & Expansion",
-    content: "As our aspirations grew, we recognized the need to elevate the local culinary landscape. In 2009, we achieved a monumental milestone by introducing a KR Bakery franchise outlet to our village. Bringing a heavily respected brand to our roots wasn't just a business expansion; it was an educational masterclass.\n\nSimultaneously, we channeled this operational expertise into our independent venture, launching Baking Bakes at Edakkazhiyoor (Chavakkad/Trissur/Kerala). This innovative concept seamlessly integrated a premium bakery with a vibrant fresh juice and cool bar experience under one roof. Equipped with modern facilities and an enhanced product lineup, 2009 effectively set the stage for our future as independent brand builders.",
+    content: "As our aspirations grew, we recognized the need to elevate the local culinary landscape. In 2009, we achieved a monumental milestone by introducing a KR Bakery franchise outlet to our village. Bringing a heavily respected brand to our roots wasn't just a business expansion; it was an educational masterclass.\n\nSimultaneously, we channeled this operational expertise into our independent venture, launching Baking Bakes at Edakkazhiyoor (Chavakkad, Thrissur, Kerala). This innovative concept seamlessly integrated a premium bakery with a vibrant fresh juice and cool bar experience under one roof. Equipped with modern facilities and an enhanced product lineup, 2009 effectively set the stage for our future as independent brand builders.",
   },
   {
     year: "2012",
@@ -82,7 +82,7 @@ export const StorySection = () => {
   };
 
   return (
-    <section ref={sectionRef} className="relative overflow-hidden bg-yellow-400 px-4 py-16 md:px-0 md:py-24">
+    <section ref={sectionRef} className="relative overflow-hidden bg-yellow-400 px-4 py-10 md:px-0 md:py-24">
       {/* Background Decorative Drift */}
       <div className="pointer-events-none absolute inset-x-0 top-[10%] hidden md:block">
         <div
@@ -93,7 +93,7 @@ export const StorySection = () => {
         </div>
       </div>
 
-      <div className="box-border max-w-none w-full mx-auto md:max-w-[1140px] px-2 md:px-4">
+      <div className="box-border max-w-none w-full mx-auto md:max-w-[1140px] px-0 md:px-4">
         {/* Title Header */}
         <div
           ref={titleRef}
@@ -115,13 +115,13 @@ export const StorySection = () => {
         {/* Timeline Interaction Area */}
         <div className="relative z-10 flex flex-col items-center">
           {/* Horizontal Year Selector tabs */}
-          <div className="relative mb-8 flex w-full max-w-4xl gap-6 md:gap-0 justify-start md:justify-between overflow-x-auto pb-4 scrollbar-none border-b border-green-700/20">
-            <div className="absolute top-[22px] left-0 right-0 h-0.5 bg-green-700/10 z-0" />
+          <div className="relative mb-8 flex w-full max-w-4xl gap-2 sm:gap-6 md:gap-0 justify-start md:justify-between overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden border-b border-green-700/20">
+            <div className="absolute top-[22px] left-0 right-0 hidden h-0.5 bg-green-700/10 z-0 md:block" />
             {timelineData.map((item, idx) => (
               <button
                 key={item.year}
                 onClick={() => handleTabClick(idx)}
-                className="relative z-10 flex flex-col items-center px-4 focus:outline-none min-w-[70px] cursor-pointer group"
+                className="relative z-10 flex shrink-0 flex-col items-center px-2 sm:px-4 focus:outline-none min-w-[64px] sm:min-w-[70px] cursor-pointer group"
               >
                 {/* Year Marker dot */}
                 <div
@@ -149,14 +149,14 @@ export const StorySection = () => {
           <div className="w-full max-w-4xl">
             <div
               key={activeTab}
-              className="bg-white rounded-[32px] p-6 md:p-10 pb-12 border border-green-700/10 shadow-[0_20px_50px_rgba(21,128,61,0.15)] transition-all duration-500 animate-fade-in-up h-auto min-h-[540px] sm:min-h-[440px] md:min-h-[360px] lg:min-h-[320px] overflow-visible"
+              className="bg-white rounded-[32px] p-6 pb-8 md:p-10 md:pb-12 border border-green-700/10 shadow-[0_20px_50px_rgba(21,128,61,0.15)] transition-all duration-500 animate-fade-in-up h-auto sm:min-h-[440px] md:min-h-[360px] lg:min-h-[320px] overflow-visible"
             >
               <div className="flex flex-col md:flex-row md:items-start justify-between gap-6 pb-6 mb-6 border-b border-gray-100">
                 <div>
                   <span className="inline-block px-4 py-1.5 rounded-full text-xs font-black uppercase bg-yellow-400/20 text-yellow-800 tracking-wider mb-3">
                     {timelineData[activeTab].year} Era
                   </span>
-                  <h2 className="text-2xl md:text-3xl font-black text-green-700 uppercase tracking-tight leading-none">
+                  <h2 className="text-2xl md:text-3xl font-black text-green-700 uppercase tracking-tight leading-tight">
                     {timelineData[activeTab].title}
                   </h2>
                   <p className="mt-1.5 text-sm md:text-base font-semibold text-green-800/70">
@@ -168,7 +168,7 @@ export const StorySection = () => {
               {/* Contents block */}
               <div className="text-neutral-700 text-sm md:text-base leading-relaxed font-medium space-y-4">
                 {timelineData[activeTab].content.split("\n\n").map((para, i) => (
-                  <p key={i} className="text-justify">
+                  <p key={i} className="text-justify text-pretty hyphens-auto [hyphenate-limit-chars:10_4_4]">
                     {para}
                   </p>
                 ))}

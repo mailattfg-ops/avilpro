@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 // Phase 1 (0–1800ms): Yellow screen, Avilpro logo fully visible
 // Phase 2 (1800ms):   Green panel slides in FROM THE TOP sweeping DOWN over the screen, old elements hide
-//                     Green panel shows "Since 1985"
+//                     Green panel shows "Since 1980"
 // Phase 3 (3000ms+):  Entire overlay fades out
 export const LoadingOverlay = () => {
   const [phase, setPhase] = useState<1 | 2 | 3>(1);
@@ -94,7 +94,7 @@ export const LoadingOverlay = () => {
             AVILPRO
           </div>
           <div style={{ marginTop: 4, fontSize: 10.5, fontWeight: 500, letterSpacing: "0.22em", textTransform: "uppercase", color: "rgba(21,128,61,0.65)" }}>
-            Premium Avil Milk Since 1985
+            Premium Avil Milk Since 1980
           </div>
         </div>
 
@@ -181,7 +181,7 @@ export const LoadingOverlay = () => {
               textTransform: "uppercase",
             }}
           >
-            Since 1985
+            Since 1980
           </div>
           <div
             style={{

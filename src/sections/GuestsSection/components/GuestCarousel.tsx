@@ -93,7 +93,7 @@ export const GuestCarousel = () => {
   };
   
   return (
-    <div className="relative mx-auto w-full max-w-[1400px] overflow-hidden py-16 md:py-32 px-4 select-none touch-pan-y">
+    <div className="relative mx-auto w-full max-w-[1400px] overflow-hidden py-8 md:py-32 px-4 select-none touch-pan-y">
       <div 
         className="w-full relative"
         onMouseEnter={stopAutoPlay}
