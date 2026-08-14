@@ -6,7 +6,7 @@ const timelineData = [
     year: "1980",
     title: "The Humble Beginnings",
     subtitle: "Bakery Fruits & Cool Bar",
-    content: "Every extraordinary journey begins with a simple dream. Ours took root in 1980, when our father established Bakery Fruits & Cool Bar. Nestled in a close-knit community, this modest neighborhood bakery was founded on an uncompromised principle: serving fresh, traditional food and beverages with genuine warmth and honesty.\n\nOver the years, it evolved into a beloved sanctuary for families, students, and travelers alike—anyone who appreciated the comforting taste of authentic, care-crafted goods. The loyalty of our community became our greatest asset, teaching us that true business growth is built on a foundation of unwavering trust.",
+    content: "Every extraordinary journey begins with a simple dream. Ours took root in 1980, when our father established Bakery Fruits & Cool Bar. Nestled in a close-knit community, this modest neighborhood bakery was founded on an uncompromised principle: serving fresh, traditional food and beverages with genuine warmth and honesty.\n\nOver the years, it evolved into a beloved sanctuary for families, students, and travelers alike anyone who appreciated the comforting taste of authentic, carefully crafted goods. The loyalty of our community became our greatest asset, teaching us that true business growth is built on a foundation of unwavering trust.",
   },
   {
     year: "2009",
@@ -31,13 +31,13 @@ const timelineData = [
     title: "Future Outlook (Present)",
     subtitle: "Multi-City Brand Growth",
     content: "Today, in 2026, AvilPro proudly commands over 14 vibrant outlets across major cities in Kerala. What began over four decades ago as a humble village bakery and cool bar shop has matured into a dynamic, continental foods and beverage enterprise.\n\nFrom a single storefront in 1980 to a diversified, multi-city brand offering various concepts today, our evolution stands as a testament to multi-generational dedication, forward-thinking innovation, and the enduring trust of our patrons.\n\nAs we look toward new horizons, our north star remains entirely unchanged: to craft exceptional quality, curate memorable experiences with various traditional and continental foods, and build homegrown brands that people genuinely love.",
-    quote: "A legacy built on taste, driven by innovation, and sustained by trust—yesterday, today, and for generations to come."
+    quote: "A legacy built on taste, driven by innovation, and sustained by trust yesterday, today, and for generations to come."
   },
   {
     year: "2030",
     title: "Vision 2030",
     subtitle: "Kerala Heritage to the World",
-    content: "Looking ahead, our vision transcends borders. By 2030, we aim to position AvilPro as a global icon in the food and beverage ecosystem with its own unique approach. We are bringing the vibrant flavors, deep heritage, and bold entrepreneurial spirit of Kerala to the world stage, elegantly harmonized with continental flair.\n\nOur vision is to establish a strong presence in the international food ecosystem and evolve into a world-class brand, recognized for its distinctive approach to innovation, quality, consistency, and exceptional customer experiences. We strive to bring products inspired by our rich heritage to global audiences—thoughtfully blended with continental influences—while preserving the authenticity that defines who we are.",
+    content: "Looking ahead, our vision transcends borders. By 2030, we aim to position AvilPro as a global icon in the food and beverage ecosystem with its own unique approach. We are bringing the vibrant flavors, deep heritage, and bold entrepreneurial spirit of Kerala to the world stage, elegantly harmonized with continental flair.\n\nOur vision is to establish a strong presence in the international food ecosystem and evolve into a world-class brand, recognized for its distinctive approach to innovation, quality, consistency, and exceptional customer experiences. We strive to bring products inspired by our rich heritage to global audiences thoughtfully blended with continental influences while preserving the authenticity that defines who we are.",
   },
 ];
 
@@ -97,9 +97,8 @@ export const StorySection = () => {
         {/* Title Header */}
         <div
           ref={titleRef}
-          className={`mb-10 text-center transition-all duration-700 md:mb-16 ${
-            titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-          }`}
+          className={`mb-10 text-center transition-all duration-700 md:mb-16 ${titleVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            }`}
         >
           <h6 className="mb-2 text-xs font-semibold uppercase tracking-[0.2em] text-green-800 md:text-sm">
             ISO 22000:2018 Certified Company
@@ -125,19 +124,17 @@ export const StorySection = () => {
               >
                 {/* Year Marker dot */}
                 <div
-                  className={`w-11 h-11 rounded-full flex items-center justify-center font-bold text-sm border-2 transition-all duration-300 ${
-                    activeTab === idx
-                      ? "bg-green-700 text-yellow-400 border-green-700 scale-110 shadow-lg shadow-green-700/20"
-                      : "bg-yellow-400 text-green-700 border-green-700/30 group-hover:border-green-700 group-hover:text-green-800"
-                  }`}
+                  className={`w-11 h-11 rounded-full flex items-center justify-center font-bold text-sm border-2 transition-all duration-300 ${activeTab === idx
+                    ? "bg-green-700 text-yellow-400 border-green-700 scale-110 shadow-lg shadow-green-700/20"
+                    : "bg-yellow-400 text-green-700 border-green-700/30 group-hover:border-green-700 group-hover:text-green-800"
+                    }`}
                 >
                   {item.year}
                 </div>
                 {/* Visual Label */}
                 <span
-                  className={`mt-2 text-xs font-semibold uppercase tracking-wider transition-colors duration-300 ${
-                    activeTab === idx ? "text-green-900" : "text-green-700/60"
-                  }`}
+                  className={`mt-2 text-xs font-semibold uppercase tracking-wider transition-colors duration-300 ${activeTab === idx ? "text-green-900" : "text-green-700/60"
+                    }`}
                 >
                   {item.year === "2026" ? "Present" : item.year}
                 </span>

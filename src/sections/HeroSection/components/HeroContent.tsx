@@ -11,12 +11,11 @@ export const HeroContent = () => {
     <div className="flex max-w-[760px] flex-col items-center gap-y-[10px] text-center md:items-start md:gap-y-[16px] md:text-left">
       {/* Pill badge */}
       <div
-        className={`inline-flex items-center gap-2 rounded-full border border-green-700/30 bg-white/20 px-4 py-1.5 backdrop-blur-sm transition-all duration-700 ${
-          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-        }`}
+        className={`inline-flex items-start gap-2 rounded-2xl border border-green-700/30 bg-white/20 px-4 py-3 backdrop-blur-sm transition-all duration-700 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          }`}
       >
-        <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-green-700 animate-pulse" />
-        <span className="max-w-[560px] text-left text-[11px] font-semibold uppercase leading-relaxed tracking-[0.18em] text-green-700 md:text-[13px]">
+        <span className="mt-[7px] h-1.5 w-1.5 shrink-0 rounded-full bg-green-700 animate-pulse" />
+        <span className="max-w-[560px] text-justify text-pretty text-[11px] font-semibold uppercase leading-relaxed text-green-700 md:text-[13px]">
           Combine traditional Kerala values with high culinary standards.
           Explore our signature avil milks, and continental foods.
         </span>
@@ -24,9 +23,8 @@ export const HeroContent = () => {
 
       {/* Main heading with wave letters */}
       <h1
-        className={`relative z-0 mb-0 max-w-[300px] uppercase transition-all duration-700 md:mb-[4px] md:max-w-[780px] ${
-          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
-        }`}
+        className={`relative z-0 mb-0 max-w-[300px] uppercase transition-all duration-700 md:mb-[4px] md:max-w-[780px] ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          }`}
         style={{ transitionDelay: "80ms" }}
       >
         {/* "Welcome To" — static */}
@@ -55,9 +53,8 @@ export const HeroContent = () => {
 
       {/* Sub-text */}
       <p
-        className={`max-w-[600px] text-[14px] font-medium leading-[1.55] text-green-800/80 md:text-[20px] transition-all duration-700 ${
-          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-        }`}
+        className={`max-w-[600px] text-[14px] font-medium leading-[1.55] text-green-800/80 md:text-[20px] transition-all duration-700 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+          }`}
         style={{ transitionDelay: "160ms" }}
       >
         Fresh avil milk and signature flavours served every day from the heart of Kerala.
@@ -65,9 +62,8 @@ export const HeroContent = () => {
 
       {/* CTAs */}
       <div
-        className={`flex flex-wrap items-center gap-3 transition-all duration-700 ${
-          mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
-        }`}
+        className={`flex flex-wrap items-center gap-3 transition-all duration-700 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
+          }`}
         style={{ transitionDelay: "240ms" }}
       >
         <a
